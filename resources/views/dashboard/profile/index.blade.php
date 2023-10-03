@@ -22,19 +22,22 @@
                 {{-- City --}}
                 <div class="mb-3">
                     <label for="_kota" class="form-label">City</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_kota" id="_kota" value="{{ getMeta_value('_kota') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_kota" id="_kota"
+                        value="{{ getMeta_value('_kota') }}">
                 </div>
 
                 {{-- province --}}
                 <div class="mb-3">
                     <label for="_provinsi" class="form-label">Province</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_provinsi" id="_provinsi" value="{{ getMeta_value('_provinsi') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_provinsi" id="_provinsi"
+                        value="{{ getMeta_value('_provinsi') }}">
                 </div>
 
                 {{-- Phone Number --}}
                 <div class="mb-3">
                     <label for="_nohp" class="form-label">Phone Number</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_nohp" id="_nohp" value="{{ getMeta_value('_nohp') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_nohp" id="_nohp"
+                        value="{{ getMeta_value('_nohp') }}">
                 </div>
 
                 {{-- Email --}}
@@ -52,25 +55,29 @@
                 {{-- Facebook --}}
                 <div class="mb-3">
                     <label for="_facebook" class="form-label">Facebook</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_facebook" id="_facebook" value="{{ getMeta_value('_facebook') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_facebook" id="_facebook"
+                        value="{{ getMeta_value('_facebook') }}">
                 </div>
 
                 {{-- Twitter --}}
                 <div class="mb-3">
                     <label for="_twitter" class="form-label">Twitter(X)</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_twitter" id="_twitter" value="{{ getMeta_value('_twitter') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_twitter" id="_twitter"
+                        value="{{ getMeta_value('_twitter') }}">
                 </div>
 
                 {{-- Linkedin --}}
                 <div class="mb-3">
                     <label for="_linkedin" class="form-label">Linkedin</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_linkedin" id="_linkedin" value="{{ getMeta_value('_linkedin') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_linkedin" id="_linkedin"
+                        value="{{ getMeta_value('_linkedin') }}">
                 </div>
 
                 {{-- github --}}
                 <div class="mb-3">
                     <label for="_github" class="form-label">Github</label>
-                    <input type="text" class="form-control form-scontrol-sm" name="_github" id="_github" value="{{ getMeta_value('_github') }}">
+                    <input type="text" class="form-control form-scontrol-sm" name="_github" id="_github"
+                        value="{{ getMeta_value('_github') }}">
                 </div>
             </div>
 

@@ -135,11 +135,19 @@
                         </a>
                     </li>
 
-                    {{-- navbar progile --}}
+                    {{-- navbar profile --}}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('profile.index') }}">
                             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
                             <span class="menu-title">Profile</span>
+                        </a>
+                    </li>
+
+                    {{-- navbar page setting --}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('pagesetting.index') }}">
+                            <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                            <span class="menu-title">Page Setting</span>
                         </a>
                     </li>
 
