@@ -119,7 +119,7 @@
                         <li class="list-inline-item"><i class="devicon-{{ strtolower($item) }}-plain"></i></li>
                     @endforeach
                 </ul>
-                <div class="subheading mb-3">Information</div>
+                <div class="subheading mb-3">Details</div>
                 {!! setlist_workflow(getMeta_value('_workflow')) !!}
             </div>
         </section>
