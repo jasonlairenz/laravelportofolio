@@ -79,7 +79,7 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">{{ $item->judul }}</h3>
                             <div class="subheading mb-3">{{ $item->info1 }}</div>
-                            {{ $item->isi }}
+                            {!! $item->isi !!}
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">{{ $item->tgl_mulai_format }} -
                                 {{ $item->tgl_akhir_format }}</span></div>
