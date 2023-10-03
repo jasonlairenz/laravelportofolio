@@ -3,6 +3,7 @@
 use App\Http\Controllers\authController;
 use App\Http\Controllers\educationController;
 use App\Http\Controllers\experienceController;
+use App\Http\Controllers\frontController;
 use App\Http\Controllers\halamanController;
 use App\Http\Controllers\pageSettingController;
 use App\Http\Controllers\profileController;
@@ -22,9 +23,11 @@ use Laravel\Socialite\Facades\Socialite;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/',[frontController::class,'index']);
 
 Route::redirect('/home', '/dashboard');
 
